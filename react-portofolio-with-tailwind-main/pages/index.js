@@ -21,9 +21,9 @@ import Image from "next/image";
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
-import web4 from "../public/web4.png";
-import web5 from "../public/web5.png";
-import web6 from "../public/web6.png";
+
+
+
 import { motion } from "framer-motion";
 
 
@@ -168,20 +168,27 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lm:flex-row lm:flex-wrap">
-            <div className="basis-1/3 flex-1 ">
+          <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
+            <h1 className="text-xl font-bold">HOTEL SERVICE MANAGEMENT AND BILLING SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
+              
               <Image
-                className="rounded-lg object-cover"
+                className="rounded-lg object-cover  mt-3"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
-              />
+              /></div> <p className="mt-3 font-semibold">The Development of Hotel Billing Invoice ,Order and Table Management
+              System as Desktop Application. I have used java language and technologies like jdbc and
+              Javafx. The Proposed System Reduces Hotel Management Effort Because Of Integration of
+              Order and Billing System. This System Takes Hotel Service to Digital Level Which Makes Hotel
+              Management Less Human Dependent.</p>
+             <div className="mr-auto ml-auto w-32"> <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
             </div>
            <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" ><h1 className="text-xl font-bold">BOOK STORE MANAGEMENT SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
               <Image
                 className="rounded-lg object-cover  mt-3"
-                width={"1000%"}
+                width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web2}
@@ -189,8 +196,21 @@ export default function Home() {
               can keep record of all the books in his Store. With the help of this System, Seller can Manage
               all the book records. In this Project I have used java language and for front end I have used
               HTML,CSS,BOOTSTRAP and JavaScript. For back End I have used SpringBoot.</p>
-              <a className="bg-gradient-to-r from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6  "><AiFillGithub className=""></AiFillGithub> Git Hub</a>
-            </div></div>
+             <div className="mr-auto ml-auto w-32"> <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex  w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
+            </div>
+            <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
+              <h1 className="text-xl font-bold"> ONLINE PERSONAL PORTFOLIO</h1><div className=" block ml-auto mr-auto w-56" >
+              
+              <Image
+                className="rounded-lg object-cover  mt-3"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web3}
+              /></div> <p className="mt-3 font-semibold">I've built an online portfolio showcasing my projects and skills. I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website. It's a platform where I present my work and highlight my expertise in web development and design.</p>
+             <div className="mr-auto ml-auto w-32"> <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
+            </div>
+            </div>
         </section>
       </main>
       <footer style={{width:'100%'}} className="h-60 p-20 bg-teal-600">
