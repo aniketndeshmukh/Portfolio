@@ -5,10 +5,10 @@ import {
   AiFillYoutube,
   AiFillMail,
   AiFillGithub,
-  
+  AiFillInstagram
 
 } from "react-icons/ai";
-import { FaRegCopyright } from "react-icons/fa";
+import { FaRegCopyright,FaLink } from "react-icons/fa";
 
 
 import { BsFillMoonStarsFill } from "react-icons/bs";
@@ -87,9 +87,9 @@ export default function Home() {
             To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well as organizational goals.
             </p></motion.div>
             <motion.div initial={{opacity:0,y:-100}} animate={{opacity:1,y:0}} transition={{delay:0.3}}><div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle />
-              <AiFillLinkedin />
-              <AiFillYoutube />
+              <a href="https://github.com/aniketndeshmukh"><AiFillGithub /></a>
+              <a href="https://www.linkedin.com/in/aniket-deshmukh-64386521b/"><AiFillLinkedin /></a>
+             <a href="https://www.instagram.com/aniketndeshmukh"> <AiFillInstagram /></a>
             </div>
             <div  className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
               <Image src={deved} layout="fill" objectFit="cover" />
@@ -168,8 +168,8 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lm:flex-row lm:flex-wrap">
-          <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
-            <h1 className="text-xl font-bold">HOTEL SERVICE MANAGEMENT AND BILLING SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
+          <div className="basis-1/3 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
+            <h1 className="text-xl font-bold">RESTAURANT SERVICE MANAGEMENT AND BILLING SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
               <Image
                 className="rounded-lg object-cover  mt-3"
@@ -182,9 +182,9 @@ export default function Home() {
               Javafx. The Proposed System Reduces Hotel Management Effort Because Of Integration of
               Order and Billing System. This System Takes Hotel Service to Digital Level Which Makes Hotel
               Management Less Human Dependent.</p>
-             <div className="mr-auto ml-auto w-32"> <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
+             <div className="mr-auto ml-auto w-32"> <a href="https://github.com/aniketndeshmukh/RestaurantManagementSystem" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
             </div>
-           <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" ><h1 className="text-xl font-bold">BOOK STORE MANAGEMENT SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
+           <div className="basis-1/3 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" ><h1 className="text-xl font-bold">BOOK STORE MANAGEMENT SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
               <Image
                 className="rounded-lg object-cover  mt-3"
@@ -198,7 +198,7 @@ export default function Home() {
               HTML,CSS,BOOTSTRAP and JavaScript. For back End I have used SpringBoot.</p>
              <div className="mr-auto ml-auto w-32"> <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex  w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
             </div>
-            <div className="basis-1/3 flex-1 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
+            <div className=" lm:w-1/2 lm:flex-initial mr-auto ml-auto text-center shadow-lg p-10 rounded-xl   bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white " >
               <h1 className="text-xl font-bold"> ONLINE PERSONAL PORTFOLIO</h1><div className=" block ml-auto mr-auto w-56" >
               
               <Image
@@ -207,8 +207,21 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
-              /></div> <p className="mt-3 font-semibold">I've built an online portfolio showcasing my projects and skills. I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website. It's a platform where I present my work and highlight my expertise in web development and design.</p>
-             <div className="mr-auto ml-auto w-32"> <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500  sm:ml-4 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md sm:ml-2 lm:ml-6 flex w-32 "><AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div>
+              /></div> <p className="mt-3 font-semibold">I've built an online portfolio showcasing my projects and skills. 
+              I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website.
+               It's a platform where I present my work and highlight my expertise in web development and design.</p>
+             <div className="flex "><div className="mr-auto ml-auto w-32"> 
+             <a href="https://github.com/aniketndeshmukh/Aniket-Portfolio/tree/main/react-portofolio-with-tailwind-main" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500 
+              sm:ml-1 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md lm:ml-1 flex w-32 ">
+                <AiFillGithub className="lm:w-7 lm:h-7 sm:w-8 sm:h-12">
+                  </AiFillGithub><span className="ml-3 font-bold mt-1"> Git Hub</span></a></div> <div className="mr-auto ml-auto w-36"> 
+             <a href="#" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500 
+              sm:ml-1 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md  lm:ml-1 flex w-36 ">
+                
+                <FaLink  className="lm:w-7 lm:h-7 sm:w-8 sm:h-12"></FaLink>
+                  <span className="ml-3 font-bold mt-1">Live Demo</span></a></div> 
+                  
+                  </div>
             </div>
             </div>
         </section>
