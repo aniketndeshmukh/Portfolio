@@ -136,7 +136,7 @@ export default function Home() {
               <p className="py-2">
               Possess Link strong grasp of logical programming, Java development, and object-oriented programming with expertise in Java and Spring Boot.
               </p>
-              <h4 className="py-4 text-teal-600">I'm good in following Backend technologies</h4>
+              <h4 className="py-4 text-teal-600">I am good in following Backend technologies</h4>
               <p className=" text-gray-50 dark:text-gray-800  py-1">JAVA</p>
               <p className=" text-gray-50 dark:text-gray-800  py-1">PYTHON</p>
               <p className=" text-gray-50 dark:text-gray-800  py-1">J2EE</p>
@@ -208,9 +208,9 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
-              /></div> <p className="mt-3 font-semibold">I've built an online portfolio showcasing my projects and skills. 
+              /></div> <p className="mt-3 font-semibold">I have built an online portfolio showcasing my projects and skills. 
               I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website.
-               It's Link platform where I present my work and highlight my expertise in web development and design.</p>
+               It is Link platform where I present my work and highlight my expertise in web development and design.</p>
              <div className="flex "><div className="mr-auto ml-auto w-32"> 
              <Link href="https://github.com/aniketndeshmukh/Aniket-Portfolio/tree/main/react-portofolio-with-tailwind-main" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500 
               sm:ml-1 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md lm:ml-1 flex w-32 ">
