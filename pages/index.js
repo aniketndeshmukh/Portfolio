@@ -93,7 +93,7 @@ export default function Home() {
              <Link href="https://www.instagram.com/aniketndeshmukh"> <AiFillInstagram /></Link>
             </div>
             <div  className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
-            { article.image &&  <Image src={deved} layout="fill" objectFit="cover" />}
+            { deved &&  <Image src={deved} layout="fill" objectFit="cover" />}
             </div></motion.div>
           </div>
          
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
           <div className="lm:flex gap-10 sm:pb-5">
             <div className="text-center shadow-lg  p-10 rounded-xl my-10 bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1">
-            { article.image &&  <Image className="imgc"  src={design} width={100} height={100} />}
+            { design &&  <Image className="imgc"  src={design} width={100} height={100} />}
               <h3 className="text-lg font-bold pt-8 pb-2  ">
                 Front End 
               </h3>
@@ -129,7 +129,7 @@ export default function Home() {
               <p className=" text-gray-50 dark:text-gray-800 py-1">NEXT JS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1">
-            { article.image && <Image className="imgc"src={code} width={100} height={100} />}
+            { code && <Image className="imgc"src={code} width={100} height={100} />}
               <h3 className="text-lg font-bold pt-8 pb-2 ">
                 Back End 
               </h3>
@@ -144,7 +144,7 @@ export default function Home() {
               <p className=" text-gray-50 dark:text-gray-800  py-1">HIBERNATE</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1">
-            { article.image &&  <Image className="imgc "src={db} width={100} height={100} />}
+            { db &&  <Image className="imgc "src={db} width={100} height={100} />}
               <h3 className="text-lg font-medium pt-8 pb-2 ">Database</h3>
               <p className="py-2">
               I have valuable SQL knowledge, proficient in writing DML, DQL, DCL, and TCL statements.
@@ -172,7 +172,7 @@ export default function Home() {
           <div className="basis-1/3 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
             <h1 className="text-xl font-bold">RESTAURANT SERVICE MANAGEMENT AND BILLING SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
-            { article.image &&  <Image
+            { web1 &&  <Image
                 className="rounded-lg object-cover  mt-3"
                 width={"100%"}              
                 height={"100%"}
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
            <div className="basis-1/3 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" ><h1 className="text-xl font-bold">BOOK STORE MANAGEMENT SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
-           { article.image && <Image
+           { web2 && <Image
                 className="rounded-lg object-cover  mt-3"
                 width={"100%"}
                 height={"100%"}
@@ -202,12 +202,12 @@ export default function Home() {
             <div className=" lm:w-1/2 lm:flex-initial mr-auto ml-auto text-center shadow-lg p-10 rounded-xl   bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white " >
               <h1 className="text-xl font-bold"> ONLINE PERSONAL PORTFOLIO</h1><div className=" block ml-auto mr-auto w-56" >
               
-              { article.image &&  <Image
+              { web2 &&  <Image
                 className="rounded-lg object-cover  mt-3"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
-                src={web3}
+                src={web2}
               />}</div> <p className="mt-3 font-semibold">I have built an online portfolio showcasing my projects and skills. 
               I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website.
                It is a platform where I present my work and highlight my expertise in web development and design.</p>
