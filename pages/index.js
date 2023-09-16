@@ -85,7 +85,7 @@ export default function Home() {
               Java Full Stack Developer & Web Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            To succeed in an environment of growth and excellence and earn Link job which provides me job satisfaction and self development and help me achieve personal as well as organizational goals.
+            To succeed in an environment of growth and excellence and earn a job which provides me job satisfaction and self development and help me achieve personal as well as organizational goals.
             </p></motion.div>
             <motion.div initial={{opacity:0,y:-100}} animate={{opacity:1,y:0}} transition={{delay:0.3}}><div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <Link href="https://github.com/aniketndeshmukh"><AiFillGithub /></Link>
@@ -102,8 +102,8 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Skills</h3>
             <p className="text-md gap-y-0.5 text-lg font-semibold py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as Link Software developer and Web
-              developer, I have learnt Link lot about new technologies like for Java Developement
+              Since the beginning of my journey as a Software developer and Web
+              developer, I have learnt a lot about new technologies like for Java Developement
               <span className="text-cyan-50"> Spring Boot </span>
               and for Web Developement <span className="text-cyan-50">React Js </span>
               and My hunger for learning new technologies is growing. 
@@ -119,7 +119,7 @@ export default function Home() {
                 Front End 
               </h3>
               <p className="py-2">
-              Possess Link solid grasp of HTML tags and CSS, along with practical experience in developing applications using React.js.
+              Possess a solid grasp of HTML tags and CSS, along with practical experience in developing applications using React.js.
               </p>
               <h4 className="py-4 text-teal-600">I have good knowledge in following technologies</h4>
               <p className=" text-gray-50 dark:text-gray-800 py-1">HTML</p>
@@ -134,7 +134,7 @@ export default function Home() {
                 Back End 
               </h3>
               <p className="py-2">
-              Possess Link strong grasp of logical programming, Java development, and object-oriented programming with expertise in Java and Spring Boot.
+              Possess a strong grasp of logical programming, Java development, and object-oriented programming with expertise in Java and Spring Boot.
               </p>
               <h4 className="py-4 text-teal-600">I am good in following Backend technologies</h4>
               <p className=" text-gray-50 dark:text-gray-800  py-1">JAVA</p>
@@ -161,7 +161,7 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 font-semibold leading-8 text-gray-800 dark:text-gray-200">
-            My portfolio showcases Link diverse range of software projects developed using Java, J2EE, Spring Boot, Hibernate, HTML, and CSS. These projects highlight my expertise in building robust and scalable web applications, leveraging Java-based technologies for backend development and creating responsive, user-friendly front-end interfaces. With Link strong foundation in software engineering, I have successfully implemented solutions that demonstrate proficiency in core Java programming, efficient database management with Hibernate, and seamless integration of the Spring Boot framework. Each project reflects my commitment to delivering high-quality software that meets both functional and aesthetic standards.
+            My portfolio showcases a diverse range of software projects developed using Java, J2EE, Spring Boot, Hibernate, HTML, and CSS. These projects highlight my expertise in building robust and scalable web applications, leveraging Java-based technologies for backend development and creating responsive, user-friendly front-end interfaces. With a strong foundation in software engineering, I have successfully implemented solutions that demonstrate proficiency in core Java programming, efficient database management with Hibernate, and seamless integration of the Spring Boot framework. Each project reflects my commitment to delivering high-quality software that meets both functional and aesthetic standards.
               
             </p>
             <p className="text-md py-2 leading-8 font-semibold text-cyan-500  ">
@@ -174,7 +174,7 @@ export default function Home() {
               
               <Image
                 className="rounded-lg object-cover  mt-3"
-                width={"100%"}
+                width={"100%"}              
                 height={"100%"}
                 layout="responsive"
                 src={web1}
@@ -210,7 +210,7 @@ export default function Home() {
                 src={web3}
               /></div> <p className="mt-3 font-semibold">I have built an online portfolio showcasing my projects and skills. 
               I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website.
-               It is Link platform where I present my work and highlight my expertise in web development and design.</p>
+               It is a platform where I present my work and highlight my expertise in web development and design.</p>
              <div className="flex "><div className="mr-auto ml-auto w-32"> 
              <Link href="https://github.com/aniketndeshmukh/Aniket-Portfolio/tree/main/react-portofolio-with-tailwind-main" className="bg-gradient-to-r mt-5  from-cyan-500 text- to-teal-500 
               sm:ml-1 sm:px-4 sm:py-2 lm:px-2 lm:py-1 border-none rounded-md lm:ml-1 flex w-32 ">
