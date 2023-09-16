@@ -93,7 +93,7 @@ export default function Home() {
              <Link href="https://www.instagram.com/aniketndeshmukh"> <AiFillInstagram /></Link>
             </div>
             <div  className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
-              <Image src={deved} layout="fill" objectFit="cover" />
+            { article.image &&  <Image src={deved} layout="fill" objectFit="cover" />}
             </div></motion.div>
           </div>
          
@@ -114,7 +114,7 @@ export default function Home() {
           </div>
           <div className="lm:flex gap-10 sm:pb-5">
             <div className="text-center shadow-lg  p-10 rounded-xl my-10 bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1">
-              <Image className="imgc"  src={design} width={100} height={100} />
+            { article.image &&  <Image className="imgc"  src={design} width={100} height={100} />}
               <h3 className="text-lg font-bold pt-8 pb-2  ">
                 Front End 
               </h3>
@@ -129,7 +129,7 @@ export default function Home() {
               <p className=" text-gray-50 dark:text-gray-800 py-1">NEXT JS</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1">
-              <Image className="imgc"src={code} width={100} height={100} />
+            { article.image && <Image className="imgc"src={code} width={100} height={100} />}
               <h3 className="text-lg font-bold pt-8 pb-2 ">
                 Back End 
               </h3>
@@ -144,7 +144,7 @@ export default function Home() {
               <p className=" text-gray-50 dark:text-gray-800  py-1">HIBERNATE</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1">
-              <Image className="imgc "src={db} width={100} height={100} />
+            { article.image &&  <Image className="imgc "src={db} width={100} height={100} />}
               <h3 className="text-lg font-medium pt-8 pb-2 ">Database</h3>
               <p className="py-2">
               I have valuable SQL knowledge, proficient in writing DML, DQL, DCL, and TCL statements.
@@ -172,13 +172,13 @@ export default function Home() {
           <div className="basis-1/3 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" >
             <h1 className="text-xl font-bold">RESTAURANT SERVICE MANAGEMENT AND BILLING SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
-              <Image
+            { article.image &&  <Image
                 className="rounded-lg object-cover  mt-3"
                 width={"100%"}              
                 height={"100%"}
                 layout="responsive"
                 src={web1}
-              /></div> <p className="mt-3 font-semibold">The Development of Hotel Billing Invoice ,Order and Table Management
+              />}</div> <p className="mt-3 font-semibold">The Development of Hotel Billing Invoice ,Order and Table Management
               System as Desktop Application. I have used java language and technologies like jdbc and
               Javafx. The Proposed System Reduces Hotel Management Effort Because Of Integration of
               Order and Billing System. This System Takes Hotel Service to Digital Level Which Makes Hotel
@@ -187,13 +187,13 @@ export default function Home() {
             </div>
            <div className="basis-1/3 text-center shadow-lg p-10 rounded-xl  bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white flex-1" ><h1 className="text-xl font-bold">BOOK STORE MANAGEMENT SYSTEM</h1><div className=" block ml-auto mr-auto w-56" >
               
-              <Image
+           { article.image && <Image
                 className="rounded-lg object-cover  mt-3"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web2}
-              /></div> <p className="mt-3 font-semibold">The Development of Book Store Management System, where Book Seller
+              />}</div> <p className="mt-3 font-semibold">The Development of Book Store Management System, where Book Seller
               can keep record of all the books in his Store. With the help of this System, Seller can Manage
               all the book records. In this Project I have used java language and for front end I have used
               HTML,CSS,BOOTSTRAP and JavaScript. For back End I have used SpringBoot.</p>
@@ -202,13 +202,13 @@ export default function Home() {
             <div className=" lm:w-1/2 lm:flex-initial mr-auto ml-auto text-center shadow-lg p-10 rounded-xl   bg-gray-800 text-gray-50 dark:text-gray-800 dark:bg-white " >
               <h1 className="text-xl font-bold"> ONLINE PERSONAL PORTFOLIO</h1><div className=" block ml-auto mr-auto w-56" >
               
-              <Image
+              { article.image &&  <Image
                 className="rounded-lg object-cover  mt-3"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web3}
-              /></div> <p className="mt-3 font-semibold">I have built an online portfolio showcasing my projects and skills. 
+              />}</div> <p className="mt-3 font-semibold">I have built an online portfolio showcasing my projects and skills. 
               I used HTML, CSS, Tailwind CSS, React JS, Next JS, and Node JS to create this website.
                It is a platform where I present my work and highlight my expertise in web development and design.</p>
              <div className="flex "><div className="mr-auto ml-auto w-32"> 
